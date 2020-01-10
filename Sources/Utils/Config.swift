@@ -115,4 +115,12 @@ public struct Config {
     public static var portraitSize: CGSize = CGSize(width: 360, height: 640)
     public static var landscapeSize: CGSize = CGSize(width: 640, height: 360)
   }
+
+    public struct Title {
+        public static var imageTitle: String = "PHOTOS"
+        public static var cameraTitle: String = "CAMERA"
+        public static var videoTitle: String = "VIDEOS"
+        public static var cancelTitle: String = "Cancel"
+        public static var doneTitle: String = "Done"
+    }
 }

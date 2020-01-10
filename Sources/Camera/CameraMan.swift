@@ -227,7 +227,6 @@ class CameraMan {
 
   func preferredPresets() -> [AVCaptureSession.Preset] {
     return [
-      .photo,
       .high,
       .medium,
       .low
